@@ -21,4 +21,4 @@ On Windows, install Visual Studio Build Tools with the .NET Framework 4.6.2 targ
 
 ## Limitation
 
-A standalone companion can safely control the Playnite process and its top-level window, but Windows does not allow it to directly manipulate every WPF control inside another process without unsupported code injection or internal Playnite modifications. Therefore this version changes the title bar and provides the correct self-contained launch path; a custom Playnite Desktop/Fullscreen theme remains necessary to remove every logo, menu label, settings surface, and built-in visual element.
+A standalone companion can safely control the Playnite process and its top-level window, but Windows does not allow it to directly manipulate every WPF control inside another process without unsupported code injection or internal Playnite modifications. Therefore this version changes the title bar and provides the correct self-contained launch path; a custom Playnite Desktop/Fullscreen theme remains necessary to remove every logo, menu label, settings surface, and built-in visual element. To make it completely blank use the white label MyLauncher theme from the releases
